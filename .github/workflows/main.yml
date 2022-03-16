@@ -32,4 +32,4 @@ jobs:
         uses: kentahikaru/github-action-vagrant--vagrantfile-from-repository@v1
         with:
           # the commands to run in vm
-          run: docker-compose version
+          run: echo Vagrant up!
