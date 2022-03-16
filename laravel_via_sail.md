@@ -33,9 +33,6 @@ sudo apt-get install -y uidmap
 
 dockerd-rootless-setuptool.sh install
 
-echo "\
-export PATH=/usr/bin:$PATH \
-export DOCKER_HOST=unix:///run/user/1000/docker.sock " >> ~/.bashrc
 ```
 
 - install docker-compose
