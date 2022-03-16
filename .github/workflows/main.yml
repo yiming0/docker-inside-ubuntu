@@ -18,7 +18,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -30,6 +30,6 @@ jobs:
         # You may pin to the exact commit or the version.
         # uses: kentahikaru/github-action-vagrant--vagrantfile-from-repository@3f86c3ef7e6e7b639dc0a4aed330337d1c653793
         uses: kentahikaru/github-action-vagrant--vagrantfile-from-repository@v1
-        #with:
+        with:
           # the commands to run in vm
-           #run: echo Vagrant up!
+           run: echo Vagrant up!
